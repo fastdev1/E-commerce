@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    top: 55px;
+    left: 70px;
+}
+.logo a{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 8px  rgb(146, 2, 2);
+    letter-spacing: 1.5;
+    color: rgb(1, 26, 82);
+}
+.searcharea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+    z-index: 1;
+    box-shadow: 2px 2px 50px rgb(4, 122, 77);
+    outline: none;
+    
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 20px;
+    background-color: transparent;
+    color: rgb(14, 15, 17);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.searcharea:hover{
+    background-color: rgb(2, 71, 68);
+    transition: 1.5s;
+}
+.section11{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    transform: translate(-15%,20%);
+
+}
+.section11 img{
+    height: 300px;
+}
+.section11button{
+    position: absolute;
+    top:60%;
+    left: 65%;
+
+}
+.section11button h1,h2{
+    font-family: roboto;
+    margin: 0px;
+    line-height: 80%;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 10px rgb(1, 26, 80);
+    letter-spacing: 5px;
+}
+span{
+    color: #e00712;
+}
+.section11button h1{
+    letter-spacing: 27px;
+}
+.section11button .btn1{
+    width: 150px;
+    height: 40px;
+    background-color: #280842;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgb(1, 26, 82);
+    border-radius:10% 10% 10% 10%/50% 50% 50% 50% ;
+    font-family: calbiri;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent;
+}
+.section11button .btn1:hover{
+    background-color: #0d6675;
+    transition: 0.5s;
+}
+.icons1 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+.icons1{
+    position: fixed;
+    top:30%;
+    left: 20px;
+    border-radius: 20px;
+    background-color: #80cedb;
+}
+.product00{
+    width: 85%;
+    background-color: rgb(248, 249, 250);
+    box-shadow: 2px 2px 30px rgb(167,158,245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    margin-top: 200px;
+    margin-left: 80px;
+    position: relative;
+    background-size: 1500px;
+    border-radius: 10px;
+}
+.prod11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+.productbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productbox img{
+    height: 180px;
+}
+.productbox p{
+    color: rgb(32, 42, 43);
+    font-family: myriad pro;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5;
+
+}
+.productbox a{
+    font-family: poppins;
+    font-size: 1rem;
+    color: #a50404;
+    font-weight: 600;
+}
+.buybtn {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calbiri;
+    border-radius:  15% 15% 15% 15%/50% 50% 50% 50%;
+    border: #024e5c 1px solid;
+}
+.buybtn:hover{
+    background-color: rgb(242, 247, 1);
+    transition: 0.5s;
+}
+.about{
+    display: flex;
+    margin: 50px auto;
+    width: 85%;
+    justify-content: space-around;
+}
+.aboutbox{
+    width: 400px;
+    margin-top: 200px;
+}
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.aboutbox h1{
+    color: #0d6675;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+.aboutbox h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #360101;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+.aboutbox p{
+    font-size: 1rem;
+    color: #027c27;
+    font-weight: 700;
+}
+.notific1{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(2, 29, 83);
+}
+.notific1 h1{
+    font-size: 2rem;
+    color: #034e4e;
+    font-weight: 700;
+    font-family: cursive;
+}
+.notificinput{
+    width: 500px;
+    background-color: hsl(267, 29%, 88%);
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    box-shadow: 2px 5px 30px rgb(1, 26, 82);
+    margin-top: 15px;
+}
+.notificinput input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #070000;
+}
+.notificinput .notbutton{
+    width: 180px;
+    margin-right: -9px;
+    height: 36px;
+    background-color: crimson;
+    border-radius: 20px;
+    color: #f8f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgb(14, 15, 17);
+    font-size: 1rem;
+
+}
+.notificinput .notbutton:hover{
+    background-color: rgb(15, 13, 12);
+    transition: 0.5s;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(10, 10, 12);
+}
+footer p{
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+.logo span{
+    color: #030002b0;
+}
+body{
+    background-color: rgb(205, 245, 113);
+}
